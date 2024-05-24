@@ -11,11 +11,11 @@ meta = (9, 4)    # Nodo de llegada
 Nota: las coordenadas deben estar entre (0,0) y (9,9)
 
 Ejecute el script main.py y le recomendara que buses tomar y que 
-transbordos hacer 
+transbordos hacer para llegar del inicio a la meta
 
 
 FUNCIONAMIENTO
-1. El programa calcula la ruta mas optima mediante A* y la almacena
+1. El programa calcula la ruta mas optima mediante el algoritmo de busqueda heuristica A* y la almacena
  en una lista que contiene las coordenadas de los nodos
 2. Se comparan las rutas de buses almacenadas en el 
 diccionario rutas_buses y toma la ruta de mayores coincidencias con 

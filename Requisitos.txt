@@ -1,6 +1,2 @@
-Se requiere tener instaladas las librerias networkx matplotlib
-
-Ejecute en el simbolo de sistema:
-
-pip install networkx matplotlib
-
+matplotlib==3.4.2
+networkx==2.5.1

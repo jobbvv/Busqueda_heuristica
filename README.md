@@ -1,1 +1,30 @@
 # Busqueda_heuristica
+INSTRUCCIONES DE USO
+
+Este programa calcula la  ruta mas corta para una malla vial de 
+cien calles y cien carreras por medio de un algoritmo heuristico A*
+
+1. en el archivo main escriba las coordenadas de su origen y destino
+inicio = (0, 1)  # Nodo de origen
+meta = (9, 4)    # Nodo de llegada
+
+Nota: las coordenadas deben estar entre (0,0) y (9,9)
+
+Ejecute el script main.py y le recomendara que buses tomar y que 
+transbordos hacer 
+
+
+FUNCIONAMIENTO
+1. El programa calcula la ruta mas optima mediante A* y la almacena
+ en una lista que contiene las coordenadas de los nodos
+2. Se comparan las rutas de buses almacenadas en el 
+diccionario rutas_buses y toma la ruta de mayores coincidencias con 
+la ruta optima
+3.Se eliminan los nodos recorridos de la ruta optima y repite
+el proceso de busqueda de ruta de bus hasta haber eliminado todos los 
+nodos de la ruta optima. asi garantiza todo el recorrido
+4.Finalmente imprime las recomendaciones para el usuario del 
+sistema de transporte en consola
+
+Nota: Todas las funciones utilizadas se encuentran en el script funciones
+debidamente documentadas
